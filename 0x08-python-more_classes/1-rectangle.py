@@ -22,10 +22,8 @@ class Rectangle:
         """retrieves width attribute"""
         return self.__width
 
-    @width.sette
-
+    @width.setter
     def width(slf, value):
-
         """sets width attribute"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")

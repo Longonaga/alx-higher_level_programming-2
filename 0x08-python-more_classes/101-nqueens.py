@@ -25,11 +25,9 @@ def get_solution(board):
     for r in range(len(board)):
         for c in range(len(board)):
             if board[r][c] == "Q":
-                solution.append([, c])
-
-                brea
-
-    return (solutio)
+                solution.append([r, c])
+                break
+    return (solution)
 
 
 def xout(board, row, col):
